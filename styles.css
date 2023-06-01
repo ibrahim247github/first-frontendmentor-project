@@ -1,3 +1,5 @@
+  @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;0,700;1,600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -12,4 +14,46 @@
      color: hsl(228, 45%, 44%);
  }
 
- 
+ :root {
+    --clr-primary: hsl(0, 0%, 41%);
+    --clr-neutral-100: hsl(0, 0%, 98%);
+    --clr-neutral: hsl(0, 0%, 8%);
+
+    --page-bgclr: var(--clr-neutral-100);
+    --btn-clr: var(--clr-neutral-100);
+    --btn-bgclr: var(--clr-neutral);
+    --p-clr: var(--clr-primary);
+    --n-clr: var(--clr-primary);
+    --h-clr: var(--clr-primary);
+
+    --ff:'Epilogue', sans-serif;
+
+    --ff-h: var(--ff);
+    --ff-b: var(--ff);
+    --ff-p: var(--ff);
+
+
+    --fw-bold: 500;
+    --fw-bolder: 700;
+
+    --fw-h: var(--fw-bolder);
+    --fw-btn: var(--fw-bold);
+
+    --fs-100: 1rem;
+    --fs-200: 1.125rem;
+    --fs-300: 2rem;
+
+    --fs-nav: var(--fs-100);
+    --fs-p: var(--fs-200);   
+    --fs-h: var(--fs-300);    
+ }
+
+
+ /* -------------------- Utility Classes ----------------*/
+ .header-bold {
+    font-weight: var(--fw-h);
+}
+
+.bold {
+   font-weight: var(--fw-btn);
+}
