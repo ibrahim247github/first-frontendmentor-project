@@ -57,3 +57,60 @@
 .bold {
    font-weight: var(--fw-btn);
 }
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 2%;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    gap: 4rem;
+}
+
+.nav1-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    list-style-type: none;
+}
+
+.nav1-links li a {
+    word-spacing: 3px;
+    text-decoration: none;
+    font-family: var(--ff-p);
+    font-size: var(--fs-nav);
+    color: var(--n-clr);
+}
+
+.nav2 {
+    display: flex;
+    gap: 15px;
+}
+
+.nav2 a {
+    display: block;
+    color: var(--n-clr);
+    text-decoration: none;
+    padding: 7px 10px;
+    border: 1px solid var(--n-clr);
+    font-weight: var(--fw-bold);
+    border-radius: 10px;
+    font-family: var(--ff-p);
+
+}
+
+.nav2 a:first-child {
+    border: none;
+}
+
+.dropdown-menu {
+    display: none;
+}
