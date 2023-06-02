@@ -92,7 +92,7 @@
     position: absolute;
     top: 30px;
     left: -35px;
-    width: 120px;
+    width: 130px;
     display: none;
     background-color: white;
     border-radius: 5px;
@@ -149,6 +149,10 @@ li:nth-child(2) .dropdown-menu {
     border: none;
 }
 
+#features-up, #company-up {
+    display: none;
+}
+
 .container {
     width: 80%;
     max-height: 67vh;
@@ -170,7 +174,6 @@ li:nth-child(2) .dropdown-menu {
 .main-content h1 {
     font-size: var(--fs-500);
     margin-bottom: 20px;
-    line-height: 1;
 }
 
 .main-content p {
